@@ -30,7 +30,7 @@ body{
     background-color: var(--container-bg);
     padding: 2.5rem;
     border-radius: 1rem;
-    box-shadow: 0 10 px 30px var(--shadow-color);
+    box-shadow: 0 10px 30px var(--shadow-color);
     text-align: center;
     max-width: 400px;
     width: 90%;
@@ -61,7 +61,7 @@ p{
 }
 
 .input-group{
-    margin-bottom: 1 rem;
+    margin-bottom: 1rem;
     position: relative;
 
 }
@@ -82,6 +82,7 @@ input{
     color: var(--text-primary);
     font-size: 1rem;
     transition: all 0.3s ease;
+    border-radius: 8px
 }
 
 input:focus {
@@ -98,7 +99,7 @@ input::placeholder{
 
 button{
     width: 100%;
-    padding: 0.85 rem;
+    padding: 0.85rem;
     background-color: var(--primary-color);
     color: black;
     font-size: 1rem;
